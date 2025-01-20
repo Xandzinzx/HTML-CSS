@@ -1,0 +1,101 @@
+/*
+cor escura/fundo : #A5373B
+cor da div: #503536 
+*/
+
+body{
+    background-color: #A5373B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #FFF;
+}
+
+p{
+    text-align: center;
+    color: #c5c5c5;
+}
+
+#coca-cola-zero{
+    background-color: #503536;
+    text-align: center;
+    width: 900px;
+    margin: 20px auto;
+    padding: 5px;
+    
+}
+
+#coca-cola-zero img{
+    width: 200px;
+}
+
+#zero{
+    color: black;
+}
+
+#coca-cola-zero h1{
+    color: rgb(255, 255, 255);
+}
+
+#coca-cola-normal{
+    background-color: #503536;
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#coca-cola-normal img{
+
+    width: 200px;
+}
+
+
+#normal{
+    color: rgb(255, 0, 0);
+}
+
+#img1{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#bio-coca{
+    background-color: #503536;
+    text-align: center;
+    width: 900px;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+#bio-criador{
+    background-color: #503536;
+    text-align: center;
+    width: 900px;
+    margin: 20px auto;
+    padding: 5px;
+}
+#coca-cola-zero:hover{
+    background-color: #663031;
+    transition: 0.3s;
+}
+#coca-cola-normal:hover{
+    background-color: #663031;
+    transition: 0.3s;
+}
+#bio-coca:hover{
+    background-color: #663031;
+    transition: 0.3s;
+}
+#bio-criador:hover{
+    background-color: #663031;
+    transition: 0.3s;
+}
+
+
+
+
+
+
