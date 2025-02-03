@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pr-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: #fff;
+        }
+
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABLEAS GRANDE
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY 
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>Populaçao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 983 983</td>    
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">12 982 982</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num"> 98 873 323</td>
+            </tr>
+            <tr>
+                <td>Pernabumco</td>
+                <td class="num">9 873 093</td>
+            </tr>
+            <tr>
+                <td>Ceara</td>
+                <td class="num"> 9 763 982</td>
+            </tr>
+            <tr>
+                <td>Para</td>
+                <td class="num"> 8 982 982</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8 287 287</td>
+            </tr>
+            <tr>
+                <td>Maranhao</td>
+                <td class="num">1 873 293</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td class="num">8 129 283</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4 923 939</td>
+            </tr>
+            <tr>
+                <td>Espirinto Santo</td>
+                <td class="num">2 839 932</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num">4 829 930</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">8 910 120</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">2 783 092</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">2 313 382</td>
+            </tr>
+ 
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total de habitantes</th>
+                <td class="num"><strong>210.17.125</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+                
+</body>
+</html>
